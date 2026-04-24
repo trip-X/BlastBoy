@@ -64,7 +64,7 @@ local function serialize(v, indent)
     return table.concat(parts)
 end
 
-local weapon = assert(dofile('configs_lua/weapon.lua'))
+local weapon = assert(dofile('configs/weapon.lua'))
 
 local outPath = 'assets/Scripts/Tuning/generated/weaponTuning.ts'
 local f = assert(io.open(outPath, 'wb'))
