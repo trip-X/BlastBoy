@@ -5,7 +5,7 @@ import { Weapon } from '../Weapon'
 import ResourceManager from '../../Runtime/ResourceManager'
 import DataManager from '../../Runtime/DataManager'
 import { FlySwordBullet } from './FlySwordBullet'
-import { IWeapon } from '../WeaponConfig'
+import type { IWeapon } from '../WeaponTypes'
 
 const { ccclass } = _decorator
 

@@ -7,7 +7,7 @@ import DataManager from '../../Runtime/DataManager'
 import EventManager from '../../Runtime/EventManager'
 import { EVENT_ENUM } from '../../Enums'
 
-import { IWeapon } from '../WeaponConfig'
+import type { IWeapon } from '../WeaponTypes'
 import { ThunderFistBullet } from './ThunderFistBullet'
 
 const { ccclass } = _decorator

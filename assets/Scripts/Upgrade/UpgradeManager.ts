@@ -3,7 +3,7 @@ import DataManager from '../Runtime/DataManager'
 import { WEAPON_TYPE_ENUM } from '../Enums'
 import { WeaponManager } from '../Weapon/WeaponManager'
 import { PlayerStats } from '../Stats/PlayerStats'
-import type { IWeapon } from '../Weapon/WeaponConfig'
+import type { IWeapon } from '../Weapon/WeaponTypes'
 import type { StatKey, UpgradeCategory, UpgradeDisplayLevel, UpgradeMode } from './UpgradeConfig'
 import { STAT_LEVEL_BONUS, STAT_NAME_MAP, UPGRADE_LIMITS, UPGRADE_WEIGHT_POLICY, WEAPON_ENHANCE_PATCH, WEAPON_NAME_MAP } from './UpgradeConfig'
 

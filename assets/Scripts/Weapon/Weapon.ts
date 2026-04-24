@@ -1,7 +1,7 @@
 import { _decorator, Component, Node, Prefab } from 'cc'
 import { EnemyManager } from '../Enemy/EnemyManager'
 import { PlayerManager } from '../Player/PlayerManager'
-import { IWeapon } from './WeaponConfig'
+import type { IWeapon } from './WeaponTypes'
 import PlayerStats from '../Stats/PlayerStats'
 const { ccclass } = _decorator
 

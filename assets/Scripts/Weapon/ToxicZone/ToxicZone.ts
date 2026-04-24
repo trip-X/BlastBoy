@@ -4,7 +4,7 @@ import { PlayerManager } from '../../Player/PlayerManager'
 import EventManager from '../../Runtime/EventManager'
 import { TileMapManager } from '../../Tile/TileMapManager'
 import { Weapon } from '../Weapon'
-import { IWeapon } from '../WeaponConfig'
+import type { IWeapon } from '../WeaponTypes'
 import { COLLIDER_TYPE_ENUM, EVENT_ENUM } from '../../Enums'
 
 const { ccclass } = _decorator

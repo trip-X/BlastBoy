@@ -1,5 +1,5 @@
 import { WEAPON_TYPE_ENUM } from '../Enums'
-import type { IWeapon } from '../Weapon/WeaponConfig'
+import type { IWeapon } from '../Weapon/WeaponTypes'
 
 export type UpgradeMode = 'start' | 'levelUp'// 升级模式
 

@@ -4,7 +4,8 @@ import { EnemyManager } from '../Enemy/EnemyManager'
 import { PlayerManager } from '../Player/PlayerManager'
 import { Weapon } from './Weapon'
 import ResourceManager from '../Runtime/ResourceManager'
-import { getWeaponConfig, IWeapon } from './WeaponConfig'
+import { getWeaponConfig } from './WeaponConfig'
+import type { IWeapon } from './WeaponTypes'
 import { WEAPON_TYPE_ENUM } from '../Enums'
 
 const { ccclass } = _decorator

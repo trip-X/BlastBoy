@@ -4,7 +4,7 @@ import { PlayerManager } from '../../Player/PlayerManager'
 import DataManager from '../../Runtime/DataManager'
 import ResourceManager from '../../Runtime/ResourceManager'
 import { Weapon } from '../Weapon'
-import { IWeapon } from '../WeaponConfig'
+import type { IWeapon } from '../WeaponTypes'
 import { ShotgunBullet } from './ShotgunBullet'
 
 

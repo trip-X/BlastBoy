@@ -4,7 +4,7 @@ import { PlayerManager } from '../../Player/PlayerManager'
 import { Weapon } from '../Weapon'
 import ResourceManager from '../../Runtime/ResourceManager'
 import DataManager from '../../Runtime/DataManager'
-import { IWeapon } from '../WeaponConfig'
+import type { IWeapon } from '../WeaponTypes'
 import { OnionSwordBullet } from './OnionSwordBullet'
 
 const { ccclass } = _decorator
